@@ -116,3 +116,14 @@ glynn
 ```
 
 When being asked, enter your FTP password.
+
+# TODO
+
+* Move site options into separate config/data file
+* Add simple way to load awards and quotes from Promoter
+* Add gallery example
+* Add option to automatically include EU Cookie Consent
+* Add instructions how to host on Heroku
+* Setup RSS
+* Include default social icons (Twitter, Facebook, RSS, etc)
+* Improve default CSS styles
