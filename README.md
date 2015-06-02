@@ -33,6 +33,7 @@ Ruby is now installed on your Windows machine.
 To install Jekyll, make sure you're in the Ruby Command Prompt, `cd` into the project directory and then run:
 
 ```
+gem install bundler
 bundle install --without heroku
 ```
 
