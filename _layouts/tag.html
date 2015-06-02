@@ -1,0 +1,27 @@
+---
+layout: base
+color: "#0a0d19"
+text-color: white
+link-color: "#1D58EB"
+---
+
+<em>Showing posts for the <strong>{{ page.tag }}</strong> tag.</em>
+
+<div class="row">
+<ul class="posts">
+	{% for post in page.posts %}
+	<li class="post">
+		<p>
+			<h2><a href="{{ post.permalink }}">{{ post.title }}</a></h2> 
+			<p class="post-date"> {{ post.date | date: "%-d %B %Y" }} </p>
+			<p> {{ post.content }} </p>
+		</p>
+	</li>
+	{% endfor %}
+</ul>
+
+{% include sidebar.html %}
+
+</div>
+
+<img src="{{ site.asset_url }}/blog/blog-background.jpg" class="background-image">

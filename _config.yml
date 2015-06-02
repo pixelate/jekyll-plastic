@@ -1,0 +1,22 @@
+---
+encoding: UTF-8
+markdown: redcarpet
+highlighter: null
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Rakefile', 'Procfile', 'README.md']
+name: Jekyll Plastic
+url: http://www.example.com
+asset_url: https://example.com
+sass:
+  sass_dir: _scss
+  style: :compressed
+assets:
+  cache: true
+  js_compressor: uglifier
+tag_page_layout: tag
+tag_page_dir: tags
+tag_permalink_style: pretty
+ftp_host: 'example.com'
+ftp_dir: '/example'
+ftp_passive: false
+ftp_username: 'username'
+---

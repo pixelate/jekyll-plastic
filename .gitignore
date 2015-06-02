@@ -1,0 +1,3 @@
+*.scssc
+.jekyll-assets-cache/*
+_site/*
