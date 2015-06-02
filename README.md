@@ -18,7 +18,7 @@ Now download the [Ruby Development Kit](https://github.com/downloads/oneclick/ru
 
 Double-click the self-extracting executable and choose `C:\DevKit` as the directory to install the files into.
 
-Open Command Prompt with Ruby and type the following:
+Open `Start Command Prompt with Ruby` and type the following:
 
 ```
 cd C:\DevKit
@@ -30,7 +30,7 @@ Ruby is now installed on your Windows machine.
 
 ## Install Jekyll
 
-To install Jekyll, make sure you're in the Command Prompt, `cd` into the project directory and then run:
+To install Jekyll, make sure you're in the Ruby Command Prompt, `cd` into the project directory and then run:
 
 ```
 bundle install --without heroku
