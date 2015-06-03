@@ -58,7 +58,7 @@ jekyll build
 # Site structure
 
 All folders in the project that do _not_ start with an underscore are accessible on the website. 
-The homepage is represented by index.html in the project directory.
+The homepage is represented by index.html in the project directory. General information about your studio is stored in `_data/studio.yml`.
 
 # Game pages
 
@@ -138,6 +138,7 @@ When being asked, enter your FTP password.
 
 * Move site options into separate config/data file
 * Populate meta tags from config file
+* Support for Twitter Cards and Facebook Open Graph
 * Add gallery example
 * Add option to automatically include EU Cookie Consent
 * Add instructions how to host on Heroku

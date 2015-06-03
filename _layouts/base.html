@@ -6,12 +6,16 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>{{ page.title }}</title>
+	<title>{{ page.title }} {% if page.title != nil %}– {% endif %}{{site.data.studio.name}}</title>
 	<link rel="stylesheet" type="text/css" href="/css/combined.css">
   <link rel="shortcut icon" href="/favicon.ico" />
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="author" content="{{site.data.studio.name}}">
+  <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{site.data.studio.description}}{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{page.description}}{% else %}{{site.data.studio.description}}{% endif %}"/>
+  <meta property="og:description" name="description" content="{% if page.description %}{{page.description}}{% else %}{{site.data.studio.description}}{% endif %}"/>
   
   {% javascript main %}
 </head>
