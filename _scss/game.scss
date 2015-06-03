@@ -1,4 +1,6 @@
 .game {
+  margin-bottom: 32px;
+  
   blockquote {
     text-align: center;
     border: none;
@@ -81,5 +83,14 @@
   
   iframe {
     border: none;
+  }
+}
+
+.social {
+  text-align: center;
+  
+  i {
+    font-size: 3em;
+    padding: 0 6px;
   }
 }

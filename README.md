@@ -70,6 +70,10 @@ To add a new game, duplicate an existing game folder (e.g. `future-unfolding`) t
 
 You can load public review quotes and awards from [Promoter](http://www.promoterapp.com) automatically for each game page. In the Front Matter of your game page, set the `promoter-url` variable to your the url of your public page (without `http://`). The reviews and awards will be displayed inside the `<ul id="awards"></ul>` and `<ul id="reviews"></ul>` container tags. You can move the container tags around on your page however you wish. You can also delete one of them if you only want to display awards or review quotes.
 
+## Social icons
+
+Plastic supports quick and easy inclusion of social icons for Twitch, Twitter, Facebook and Tumblr. See `future-unfolding/index.html` for an example.
+
 # Writing blog posts
 
 To create a new blog post, create a new file in `_posts` with the following file name syntax: `2015-01-31-blog-post-title.md`
@@ -133,9 +137,9 @@ When being asked, enter your FTP password.
 # TODO
 
 * Move site options into separate config/data file
+* Populate meta tags from config file
 * Add gallery example
 * Add option to automatically include EU Cookie Consent
 * Add instructions how to host on Heroku
 * Setup RSS
-* Include default social icons (Twitter, Facebook, RSS, etc)
 * Create default CSS theme
