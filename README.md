@@ -124,6 +124,12 @@ glynn
 
 When being asked, enter your FTP password.
 
+# Thank you
+
+* Rudolf Kremers for allowing me to open source my Jekyll setup that has initially been created for his studio website [omni-labs.com](http://www.omni-labs.com)
+* Ed Key for being the first test user of Plastic
+* Erik Svedäng for introducing me to Jekyll
+
 # TODO
 
 * Move site options into separate config/data file
