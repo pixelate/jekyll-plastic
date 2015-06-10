@@ -1,5 +1,6 @@
 ### 0.0.3 (2015-06-10)
 
+  * Added Table of Contents
   * Support for Twitter Cards and Facebook Open Graph
   * Support for color schemes on pages
   * Added support for image gallery on game pages
