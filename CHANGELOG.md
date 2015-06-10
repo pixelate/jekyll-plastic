@@ -1,5 +1,6 @@
 ### 0.0.3 (2015-06-10)
 
+  * Added installation instructions for OS X
   * Added Table of Contents
   * Support for Twitter Cards and Facebook Open Graph
   * Support for color schemes on pages

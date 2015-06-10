@@ -30,32 +30,49 @@ The project is prepopulated with example content from our game studio Spaces of 
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# Local setup on Windows
-
-## Install Ruby
+# Local setup
 
 To run Jekyll locally you need to have Ruby installed.
 
-First, download and install [Ruby 1.9.3](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-1.9.3-p551.exe?direct).
+## Install Ruby on Windows
 
-Now download the [Ruby Development Kit](https://github.com/downloads/oneclick/rubyinstaller/DevKit-tdm-32-4.5.2-20111229-1559-sfx.exe
+1. First, download and install [Ruby 1.9.3](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-1.9.3-p551.exe?direct).
+
+2. Now download the [Ruby Development Kit](https://github.com/downloads/oneclick/rubyinstaller/DevKit-tdm-32-4.5.2-20111229-1559-sfx.exe
 ).
 
-Double-click the self-extracting executable and choose `C:\DevKit` as the directory to install the files into.
+3. Double-click the self-extracting executable and choose `C:\DevKit` as the directory to install the files into.
 
-Open `Start Command Prompt with Ruby` and type the following:
-
+4. Open `Start Command Prompt with Ruby` and type the following:
 ```
 cd C:\DevKit
 ruby dk.rb init
 ruby dk.rb install
 ```
 
-Ruby is now installed on your Windows machine.
+Ruby is now installed on your Windows machine. Always use the Ruby Command Prompt with the typing terminal commands mentioned below.
+
+## Install Ruby on OS X
+
+1. If you don't have already, install [Homebrew](http://brew.sh/).
+
+2. (Install rbenv)[https://github.com/sstephenson/rbenv#homebrew-on-mac-os-x] via Homebrew.
+
+3. Install Ruby 1.9.3
+```
+rbenv install 1.9.3-p551
+```
+
+4. `cd` into your project directoy and type:
+```
+rbenv local 1.9.3-p551
+```
+
+Ruby is now setup on your Mac.
 
 ## Install Jekyll
 
-To install Jekyll, make sure you're in the Ruby Command Prompt, `cd` into the project directory and then run:
+To install Jekyll `cd` into the project directory and then run:
 
 ```
 gem install bundler
@@ -176,6 +193,14 @@ When being asked, enter your FTP password.
 * Rudolf Kremers for allowing me to open source my Jekyll setup that has initially been created for his studio website [omni-labs.com](http://www.omni-labs.com)
 * Ed Key for being the first test user of Plastic
 * Erik Svedäng for introducing me to Jekyll
+
+# Development
+
+To update the TOS for this README run:
+
+```
+doctoc README.md --title "# Table of Contents"
+```
 
 # TODO
 
