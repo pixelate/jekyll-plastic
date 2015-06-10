@@ -58,17 +58,11 @@ Ruby is now installed on your Windows machine. Always use the Ruby Command Promp
 
 1. If you don't have already, install [Homebrew](http://brew.sh/).
 
-2. (Install rbenv)[https://github.com/sstephenson/rbenv#homebrew-on-mac-os-x] via Homebrew.
+2. [Install rbenv](https://github.com/sstephenson/rbenv#homebrew-on-mac-os-x) via Homebrew.
 
-3. Install Ruby 1.9.3
-```
-rbenv install 1.9.3-p551
-```
+3. Run `rbenv install 1.9.3-p551`
 
-4. `cd` into your project directoy and type:
-```
-rbenv local 1.9.3-p551
-```
+4. `cd` into your project directoy and run `rbenv local 1.9.3-p551`
 
 Ruby is now setup on your Mac.
 
