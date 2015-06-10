@@ -129,7 +129,6 @@ When being asked, enter your FTP password.
 
 # TODO
 
-* Color schemes
 * Move site options into separate config/data file
 * Populate meta tags from config file
 * Support for Twitter Cards and Facebook Open Graph

@@ -18,6 +18,30 @@
   <meta property="og:description" name="description" content="{% if page.description %}{{page.description}}{% else %}{{site.data.studio.description}}{% endif %}"/>
   
   {% javascript main %}
+  
+  <style>
+    body {
+      {% if page.colors[0] %}
+      background: {{page.colors[0]}};
+      {% endif %}
+
+      {% if page.colors[2] %}
+      color: {{page.colors[2]}};
+      {% endif %}
+    }
+    
+    blockquote, cite {
+      {% if page.colors[2] %}
+      color: {{page.colors[2]}};
+      {% endif %}      
+    }
+    
+    a, a:hover {
+      {% if page.colors[1] %}
+      color: {{page.colors[1]}};
+      {% endif %}      
+    }
+  </style>
 </head>
 
 <body>
