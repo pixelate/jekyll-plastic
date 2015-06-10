@@ -15,7 +15,18 @@
   <meta name="author" content="{{site.data.studio.name}}">
   <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{site.data.studio.description}}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{page.description}}{% else %}{{site.data.studio.description}}{% endif %}"/>
-  <meta property="og:description" name="description" content="{% if page.description %}{{page.description}}{% else %}{{site.data.studio.description}}{% endif %}"/>
+  {% if page.social.image %}
+    {% capture path %}{{ page.slug }}/social/{% endcapture %}
+    {% assign social_image_url = page.social.image | prepend: path | asset_path %}
+    <meta name="twitter:image" content="{{social_image_url}}"/>
+    <meta name="og:image" content="{{social_image_url}}"/>
+  {% endif %}
+
+  <meta property="og:description" name="description" content="{% if page.description %}{{page.description}}{% else %}{{site.data.studio.description}}{% endif %}" />
+  <meta property="og:title" content="{% if page.title %}{{page.title}}{% else %}{{site.data.studio.name}}{% endif %}" />
+  <meta property="og:site_name" content="{{site.data.studio.name}}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{site.url}}{{page.url|remove:'index.html'}}" />
   
   {% javascript main %}
   

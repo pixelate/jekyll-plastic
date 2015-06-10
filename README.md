@@ -1,7 +1,7 @@
 Plastic
 =======
 
-Plastic is boilerplate code that helps you to build a simple website for your game studio. Plastic uses the static blogging engine [Jekyll](http://jekyllrb.com) which is written in Ruby. Compared to blog systems like Wordpress, a static blogging engine does not require any database or server-side scripts, thus making a site easier to deploy, faster to load and be able to handle more requests.
+Plastic is boilerplate code that helps you to build a simple website for your game or game studio. Plastic uses the static blogging engine [Jekyll](http://jekyllrb.com) which is written in Ruby. Compared to blogging systems like Wordpress, a static blogging engine does not require any database or server-side scripts, thus making a site easier to deploy, faster to load and be able to handle more requests.
 
 With Jekyll you do changes locally by editing text files in the project directory. To publish your changes, run the `jekyll build` command and then upload the contents of the `_site` folder to your FTP server.
 
@@ -60,7 +60,8 @@ jekyll build
 # Site structure
 
 All folders in the project that do _not_ start with an underscore are accessible on the website. 
-The homepage is represented by index.html in the project directory. General information about your studio is stored in `_data/studio.yml`.
+
+The homepage is represented by `index.html` in the project directory. General information about your studio is stored in `_data/studio.yml`.
 
 # Game pages
 
@@ -79,6 +80,15 @@ Plastic allows you to quickly add a simple gallery with screenshots to each game
 ## Social icons
 
 Plastic supports quick and easy inclusion of social icons for Twitch, Twitter, Facebook and Tumblr. See `future-unfolding/index.html` for an example.
+
+## Twitter cards and Facebook Open Graph
+
+It is recommended to provide an key art asset or screenshot of your game that will automatically be displayed when someone shares the url of your game page on Twitter or Facebook. In the example setup, the path for that image is `_assets/images/future-unfolding/social`. The name of your image file is defined in the front matter:
+
+```
+social:
+  image: futureunfolding.jpg
+```
 
 # Writing blog posts
 
@@ -111,6 +121,23 @@ There are five different layout templates available:
 
 You can choose the layout for a page using the so-called [Front Matter](http://jekyllrb.com/docs/frontmatter/) in Jekyll (a fancy word for meta data).
 
+## Color schemes
+
+You can define a color scheme per page. This is useful if you for example want a game page to reflect the color scheme of your game. Schemes are defined in the front matter of a page:
+
+```
+colors:
+  - '#ffefc1'
+  - '#e31616'
+  - '#610b0b'
+```
+
+Colors are defined in the following order:
+
+1. background color
+2. link color
+3. body text color
+
 # Deploy
 
 To build and deploy the site run the following command:
@@ -129,11 +156,9 @@ When being asked, enter your FTP password.
 
 # TODO
 
-* Move site options into separate config/data file
-* Populate meta tags from config file
-* Support for Twitter Cards and Facebook Open Graph
 * Add option to automatically include EU Cookie Consent
 * Add instructions how to host on Heroku
 * Setup RSS
 * Create default CSS theme
 * Option to host assets on CDN
+* Instructions for Wordpress import
