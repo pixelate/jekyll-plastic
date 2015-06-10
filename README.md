@@ -3,9 +3,32 @@ Plastic
 
 Plastic is boilerplate code that helps you to build a simple website for your game or game studio. Plastic uses the static blogging engine [Jekyll](http://jekyllrb.com) which is written in Ruby. Compared to blogging systems like Wordpress, a static blogging engine does not require any database or server-side scripts, thus making a site easier to deploy, faster to load and be able to handle more requests.
 
-With Jekyll you do changes locally by editing text files in the project directory. To publish your changes, run the `jekyll build` command and then upload the contents of the `_site` folder to your FTP server.
+The project is prepopulated with example content from our game studio Spaces of Play. Please make sure to replace with your own content before deploying your website. __"Future Unfolding" copyright 2013-2015 Spaces of Play UG (haftungsbeschränkt).__
 
-The project is prepopulated with example content from our game studio Spaces of Play. Please make sure to replace with your own content before deploying your website. "Future Unfolding" copyright 2013-2015 Spaces of Play UG (haftungsbeschränkt).
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+# Table of Contents
+
+- [Local setup on Windows](#local-setup-on-windows)
+  - [Install Ruby](#install-ruby)
+  - [Install Jekyll](#install-jekyll)
+- [Run the site locally](#run-the-site-locally)
+- [Site structure](#site-structure)
+- [Game pages](#game-pages)
+  - [Adding a new game](#adding-a-new-game)
+  - [Promoter integration](#promoter-integration)
+  - [Gallery](#gallery)
+  - [Social icons](#social-icons)
+  - [Twitter cards and Facebook Open Graph](#twitter-cards-and-facebook-open-graph)
+- [Writing blog posts](#writing-blog-posts)
+- [Images](#images)
+- [Layouts](#layouts)
+  - [Color schemes](#color-schemes)
+- [Deploy](#deploy)
+- [Thank you](#thank-you)
+- [TODO](#todo)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Local setup on Windows
 
@@ -83,7 +106,7 @@ Plastic supports quick and easy inclusion of social icons for Twitch, Twitter, F
 
 ## Twitter cards and Facebook Open Graph
 
-It is recommended to provide an key art asset or screenshot of your game that will automatically be displayed when someone shares the url of your game page on Twitter or Facebook. In the example setup, the path for that image is `_assets/images/future-unfolding/social`. The name of your image file is defined in the front matter:
+It is recommended to provide a key art asset or screenshot of your game that will automatically be displayed when someone shares the url of your game page on Twitter or Facebook. In the example setup, the path for that image is `_assets/images/future-unfolding/social`. The name of your image file is defined in the front matter:
 
 ```
 social:
