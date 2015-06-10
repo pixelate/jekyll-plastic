@@ -1,3 +1,8 @@
+### 0.0.3 (2015-06-10)
+
+  * Added support for image gallery on game pages
+  * Updated jekyll-assets gem
+
 ### 0.0.2 (2015-06-03)
 
   * Promoter integration: Automatically load public review quotes and awards per game page
