@@ -9,8 +9,9 @@ The project is prepopulated with example content from our game studio Spaces of 
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 # Table of Contents
 
-- [Local setup on Windows](#local-setup-on-windows)
-  - [Install Ruby](#install-ruby)
+- [Local setup](#local-setup)
+  - [Install Ruby on Windows](#install-ruby-on-windows)
+  - [Install Ruby on OS X](#install-ruby-on-os-x)
   - [Install Jekyll](#install-jekyll)
 - [Run the site locally](#run-the-site-locally)
 - [Site structure](#site-structure)
@@ -26,6 +27,7 @@ The project is prepopulated with example content from our game studio Spaces of 
   - [Color schemes](#color-schemes)
 - [Deploy](#deploy)
 - [Thank you](#thank-you)
+- [Development](#development)
 - [TODO](#todo)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
