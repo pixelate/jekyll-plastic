@@ -49,6 +49,21 @@
   }
 }
 
+.backdrop {
+  background: rgba(0, 0, 0, 0.85);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  padding-top: 9px;
+  
+  strong {
+    color: white;
+  }
+}
+
 .gallery-image-zoomed-in {
   @include outer-container;
   width: 100%;

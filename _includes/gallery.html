@@ -1,0 +1,13 @@
+<div class="gallery">
+{% for item in page.gallery %}
+  {% capture path %}{{ page.slug }}/gallery/{% endcapture %}
+  {{ item | prepend: path | image }}
+{% endfor %}
+</div>
+
+<div class="backdrop" style="display: none;">
+  <strong>{{page.title}}</strong>  
+</div>
+
+<div class="gallery-image-zoomed-in" style="display: none;">
+</div>

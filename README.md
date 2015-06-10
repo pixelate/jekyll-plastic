@@ -5,6 +5,8 @@ Plastic is boilerplate code that helps you to build a simple website for your ga
 
 With Jekyll you do changes locally by editing text files in the project directory. To publish your changes, run the `jekyll build` command and then upload the contents of the `_site` folder to your FTP server.
 
+The project is prepopulated with example content from our game studio Spaces of Play. Please make sure to replace with your own content before deploying your website. "Future Unfolding" copyright 2013-2015 Spaces of Play UG (haftungsbeschränkt).
+
 # Local setup on Windows
 
 ## Install Ruby
@@ -70,6 +72,10 @@ To add a new game, duplicate an existing game folder (e.g. `future-unfolding`) t
 
 You can load public review quotes and awards from [Promoter](http://www.promoterapp.com) automatically for each game page. In the Front Matter of your game page, set the `promoter-url` variable to your the url of your public page (without `http://`). The reviews and awards will be displayed inside the `<ul id="awards"></ul>` and `<ul id="reviews"></ul>` container tags. You can move the container tags around on your page however you wish. You can also delete one of them if you only want to display awards or review quotes.
 
+## Gallery
+
+Plastic allows you to quickly add a simple gallery with screenshots to each game page. See `future-unfolding/index.html` for an example. Note that the `slug` front matter must be set to the name of the folder where you game page resides.
+
 ## Social icons
 
 Plastic supports quick and easy inclusion of social icons for Twitch, Twitter, Facebook and Tumblr. See `future-unfolding/index.html` for an example.
@@ -82,26 +88,13 @@ You can use both [Markdown](http://daringfireball.net/projects/markdown/syntax) 
 
 You can keep unfinished drafts of your blog posts in the [drafts folder](http://jekyllrb.com/docs/drafts/).
 
-# Uploading images
+# Images
 
-For best loading times, images are stored on Amazon S3 and served via the Amazon CloudFront CDN. To upload an image do the following steps:
-
-1. Sign into Amazon
-2. Go to https://console.aws.amazon.com/s3/home?region=us-west-2
-3. Select your bucket
-4. Select the folder where you want to upload the new file
-5. Click on the `Upload` button and select the file to upload
-6. Right-click the file you uploaded and select `Make Public`
-
-To use an uploaded image on the site use the following syntax:
+Images are stored in the `_assets/images` folder. To display an image on a page use the following syntax:
 
 ```
-<img src="{{site.asset_url}}/blog/my-image.png" alt="My image">
+{% image logo.png alt="Logo" %}
 ```
-
-It is recommended to store a copy of each image in the `_img` folder as a local backup, using the same directory structure as the Amazon S3 bucket.
-
-# Images sizes
 
 Images should have double the size of the size that they are rendered in the browser to account for high-resolution (Retina) displays if possible.
 
@@ -136,11 +129,12 @@ When being asked, enter your FTP password.
 
 # TODO
 
+* Color schemes
 * Move site options into separate config/data file
 * Populate meta tags from config file
 * Support for Twitter Cards and Facebook Open Graph
-* Add gallery example
 * Add option to automatically include EU Cookie Consent
 * Add instructions how to host on Heroku
 * Setup RSS
 * Create default CSS theme
+* Option to host assets on CDN
