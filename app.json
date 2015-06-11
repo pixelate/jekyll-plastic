@@ -1,0 +1,6 @@
+{
+  "name": "Plastic Sample Site",
+  "description": "Plastic is boilerplate code that helps you to build a simple website for your game or game studio.",
+  "repository": "https://github.com/pixelate/jekyll-plastic",
+  "keywords": ["jekyll", "ruby", "boilerplate"]
+}

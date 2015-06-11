@@ -191,6 +191,8 @@ glynn
 
 When being asked, enter your FTP password.
 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 # Import from Wordpress
 
 To import your existing blog from your Wordpress installation, [follow the instructions here](http://import.jekyllrb.com/docs/wordpress/).

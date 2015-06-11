@@ -12,8 +12,8 @@ gem 'listen', '2.7.8'
 gem 'uglifier', '2.5.3'
 gem 'wdm', '~> 0.1.0' if Gem.win_platform?
 
-# group :heroku do
-#   gem 'rack-jekyll', github: 'hsbt/rack-jekyll', branch: 'upgrade-jekyll2'
-#   gem 'rack-www', '1.5.0'
-#   gem 'unicorn', '4.8.3'
-# end
+group :heroku do
+  gem 'rack-jekyll', github: 'hsbt/rack-jekyll', branch: 'upgrade-jekyll2'
+  gem 'rack-www', '1.5.0'
+  gem 'unicorn', '4.8.3'
+end
