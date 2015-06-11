@@ -24,7 +24,8 @@ The project is prepopulated with example content from our game studio Spaces of 
 - [Writing blog posts](#writing-blog-posts)
 - [Images](#images)
 - [Layouts](#layouts)
-  - [Color schemes](#color-schemes)
+- [Color schemes](#color-schemes)
+- [Cookie consent](#cookie-consent)
 - [Deploy](#deploy)
 - [Thank you](#thank-you)
 - [Development](#development)
@@ -157,7 +158,7 @@ There are five different layout templates available:
 
 You can choose the layout for a page using the so-called [Front Matter](http://jekyllrb.com/docs/frontmatter/) in Jekyll (a fancy word for meta data).
 
-## Color schemes
+# Color schemes
 
 You can define a color scheme per page. This is useful if you for example want a game page to reflect the color scheme of your game. Schemes are defined in the front matter of a page:
 
@@ -173,6 +174,10 @@ Colors are defined in the following order:
 1. background color
 2. link color
 3. body text color
+
+# Cookie consent
+
+Plastic comes with a default cookie consent dialog that informs users about your use of cookies on the site. Cookies are for example used by third-party services like Google Analytics. You can configure the cookie consent dialog in the `_data/config.yml` file. Privacy laws differ from country to country, so please make sure you're following the rules applicable to where your company is based. [More information about cookie consent](https://www.cookiechoices.org/#about).
 
 # Deploy
 
@@ -200,7 +205,6 @@ doctoc README.md --title "# Table of Contents"
 
 # TODO
 
-* Add option to automatically include EU Cookie Consent
 * Add instructions how to host on Heroku
 * Setup RSS
 * Create default CSS theme
