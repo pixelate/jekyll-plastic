@@ -3,7 +3,7 @@ Plastic
 
 Plastic is boilerplate code that helps you to build a simple website for your game or game studio. Plastic uses the static blogging engine [Jekyll](http://jekyllrb.com) which is written in Ruby. Compared to blogging systems like Wordpress, a static blogging engine does not require any database or server-side scripts, thus making a site easier to deploy, faster to load and be able to handle more requests.
 
-The project is prepopulated with example content from our game studio Spaces of Play. Please make sure to replace with your own content before deploying your website. __"Future Unfolding" copyright 2013-2015 Spaces of Play UG (haftungsbeschränkt).__
+The project is prepopulated with example content from our game studio Spaces of Play. Please make sure to replace with your own content before deploying your website. __"Future Unfolding" (including all images files) copyright 2013-2015 Spaces of Play UG (haftungsbeschränkt).__
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
