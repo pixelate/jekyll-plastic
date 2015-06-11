@@ -1,5 +1,6 @@
 ### 0.0.4 (2015-06-11)
 
+  * Added instructions for importing from Wordpress
   * Added imprint page
   * Added default cookie consent dialog
 

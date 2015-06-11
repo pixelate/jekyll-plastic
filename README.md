@@ -189,6 +189,10 @@ glynn
 
 When being asked, enter your FTP password.
 
+# Import from Wordpress
+
+To import your existing blog from your Wordpress installation, [follow the instructions here](http://import.jekyllrb.com/docs/wordpress/).
+
 # Thank you
 
 * Rudolf Kremers for allowing me to open source my Jekyll setup that has initially been created for his studio website [omni-labs.com](http://www.omni-labs.com)
@@ -209,4 +213,3 @@ doctoc README.md --title "# Table of Contents"
 * Setup RSS
 * Create default CSS theme
 * Option to host assets on CDN
-* Instructions for Wordpress import
