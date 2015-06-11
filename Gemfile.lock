@@ -147,7 +147,6 @@ DEPENDENCIES
   jekyll-assets (= 1.0.0.pre.alpha1)
   jekyll-import (= 0.7.1)
   jekyll-tagging (= 0.6.0)
-  listen (= 2.7.8)
   neat (= 1.7.2)
   rack-jekyll!
   rack-www (= 1.5.0)
