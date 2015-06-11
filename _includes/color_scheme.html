@@ -1,0 +1,35 @@
+<style>
+  body {
+    {% if page.colors[0] %}
+    background: {{page.colors[0]}};
+    {% endif %}
+
+    {% if page.colors[2] %}
+    color: {{page.colors[2]}};
+    {% endif %}
+  }
+  
+  {% if page.colors[0] %}
+    #cookieChoiceInfo a, #cookieChoiceInfo a:hover {
+      color: {{page.colors[0]}} !important;        
+    }
+  {% endif %}      
+
+  {% if page.colors[1] %}
+    #cookieChoiceInfo {
+      background: {{page.colors[1]}} !important;  
+    }
+  {% endif %}      
+  
+  {% if page.colors[2] %}
+  blockquote, cite {
+    color: {{page.colors[2]}};
+  }
+  {% endif %}      
+  
+  {% if page.colors[1] %}
+  a, a:hover {
+    color: {{page.colors[1]}} !important;
+  }
+  {% endif %}      
+</style>

@@ -32,38 +32,22 @@ layout: compress
   
   {% javascript main %}
   
-  {% if site.data.config.cookie_consent.show == true %}
 	<script>
-    document.addEventListener('DOMContentLoaded', function(event) {
-      cookieChoices.showCookieConsentBar('{{site.data.config.cookie_consent.message}}',
+    $(document).ready(function() {
+      init();
+      
+      {% if site.data.config.cookie_consent.show == true %}
+        cookieChoices.showCookieConsentBar('{{site.data.config.cookie_consent.message}}',
         'OK', 'Learn more', '{{site.data.config.cookie_consent.link}}');
+      {% endif %}  
+
+      {% if page.background_image %}
+        $.backstretch("{{page.background_image | asset_path}}");
+      {% endif %}  
     });
 	</script>
-  {% endif %}  
-  
-  <style>
-    body {
-      {% if page.colors[0] %}
-      background: {{page.colors[0]}};
-      {% endif %}
 
-      {% if page.colors[2] %}
-      color: {{page.colors[2]}};
-      {% endif %}
-    }
-    
-    blockquote, cite {
-      {% if page.colors[2] %}
-      color: {{page.colors[2]}};
-      {% endif %}      
-    }
-    
-    a, a:hover {
-      {% if page.colors[1] %}
-      color: {{page.colors[1]}} !important;
-      {% endif %}      
-    }
-  </style>
+  {% include color_scheme.html %}
 </head>
 
 <body>

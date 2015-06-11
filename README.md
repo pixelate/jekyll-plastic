@@ -24,7 +24,9 @@ The project is prepopulated with example content from our game studio Spaces of 
 - [Writing blog posts](#writing-blog-posts)
 - [Images](#images)
 - [Layouts](#layouts)
-- [Color schemes](#color-schemes)
+- [Pages](#pages)
+  - [Color schemes](#color-schemes)
+  - [Background images](#background-images)
 - [Cookie consent](#cookie-consent)
 - [Deploy](#deploy)
 - [Import from Wordpress](#import-from-wordpress)
@@ -160,7 +162,9 @@ There are five different layout templates available:
 
 You can choose the layout for a page using the so-called [Front Matter](http://jekyllrb.com/docs/frontmatter/) in Jekyll (a fancy word for meta data).
 
-# Color schemes
+# Pages
+
+## Color schemes
 
 You can define a color scheme per page. This is useful if you for example want a game page to reflect the color scheme of your game. Schemes are defined in the front matter of a page:
 
@@ -176,6 +180,14 @@ Colors are defined in the following order:
 1. background color
 2. link color
 3. body text color
+
+## Background images
+
+You can specify a background image per page that will automatically stretch to fill the complete background of the page.
+
+```
+background_image: "future-unfolding/gallery/futureunfolding_1.jpg"
+```
 
 # Cookie consent
 
@@ -211,7 +223,6 @@ doctoc README.md --title "# Table of Contents"
 
 # Roadmap 
 
-* Background stretch images
 * Default CSS theme
 * Deploy to Heroku Button
 * GitHub pages support

@@ -1,10 +1,17 @@
 //= require vendor/jquery-1.11.0
+//= require vendor/jquery.backstretch.js
 //= require vendor/jquery.fitvids.js
 //= require vendor/promoter.js
 //= require vendor/cookiechoices.js
 
 function init() {
-	// Add your init code
+  setupVideos();
+  setupGallery();
+  setupBackgroundImage();
+}
+
+function setupVideos() {
+  $(".content").fitVids();  
 }
 
 function setupGallery() {
@@ -18,9 +25,6 @@ function setupGallery() {
   });
 }
 
-$(document).ready(function() {
-  $(".content").fitVids();
+function setupBackgroundImage() {
   
-  setupGallery();
-  init();
-});
+}

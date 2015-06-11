@@ -1,5 +1,6 @@
 ### 0.0.4 (2015-06-11)
 
+  * Added option for background image on pages
   * Added RSS feed
   * Added instructions for importing from Wordpress
   * Added imprint page
