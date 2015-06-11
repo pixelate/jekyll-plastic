@@ -3,7 +3,7 @@ Plastic
 
 Plastic is boilerplate code that helps you to build a simple website for your game or game studio. Plastic uses the static blogging engine [Jekyll](http://jekyllrb.com) which is written in Ruby. Compared to blogging systems like Wordpress, a static blogging engine does not require any database or server-side scripts, thus making a site easier to deploy, faster to load and be able to handle more requests.
 
-The project is prepopulated with example content from our game studio Spaces of Play. Please make sure to replace with your own content before deploying your website. __"Future Unfolding" (including all images files) copyright 2013-2015 Spaces of Play UG (haftungsbeschränkt).__
+The project is prepopulated with example content from our game studio Spaces of Play. Please make sure to replace with your own content before deploying your website. See [LICENSE](https://github.com/pixelate/jekyll-plastic/LICENSE) for more information.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -27,9 +27,11 @@ The project is prepopulated with example content from our game studio Spaces of 
 - [Color schemes](#color-schemes)
 - [Cookie consent](#cookie-consent)
 - [Deploy](#deploy)
+- [Import from Wordpress](#import-from-wordpress)
 - [Thank you](#thank-you)
 - [Development](#development)
-- [TODO](#todo)
+- [Roadmap](#roadmap)
+- [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -207,9 +209,13 @@ To update the TOS for this README run:
 doctoc README.md --title "# Table of Contents"
 ```
 
-# TODO
+# Roadmap 
 
 * Background stretch images
-* Add instructions how to host on Heroku
-* Create default CSS theme
-* Option to host assets on CDN
+* Default CSS theme
+* Deploy to Heroku Button
+* GitHub pages support
+
+# License
+
+Plastic is licensed under the MIT License, see LICENSE for more information.
