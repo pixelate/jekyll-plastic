@@ -8,6 +8,7 @@ gem 'jekyll-assets', '1.0.0.pre.alpha1'
 gem 'jekyll-import', '0.7.1'
 gem 'jekyll-tagging', '0.6.0'
 gem 'neat', '1.7.2'
+gem 'listen', '2.7.8' if Gem.win_platform?
 gem 'uglifier', '2.5.3'
 gem 'wdm', '~> 0.1.0' if Gem.win_platform?
 
