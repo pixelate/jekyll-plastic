@@ -1,5 +1,6 @@
 ### 0.0.4 (2015-06-11)
 
+  * Added imprint page
   * Added default cookie consent dialog
 
 ### 0.0.3 (2015-06-10)
