@@ -139,6 +139,8 @@ You can use both [Markdown](http://daringfireball.net/projects/markdown/syntax) 
 
 You can keep unfinished drafts of your blog posts in the [drafts folder](http://jekyllrb.com/docs/drafts/).
 
+Author data for blog posts is stored in `_data/authors.yml`.
+
 # Images
 
 Images are stored in the `_assets/images` folder. To display an image on a page use the following syntax:

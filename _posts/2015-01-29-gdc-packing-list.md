@@ -2,6 +2,7 @@
 title: "GDC Packing List"
 layout: post
 permalink: /blog/gdc-packing-list/
+author: andreas
 tags: [events]
 ---
 

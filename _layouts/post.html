@@ -5,10 +5,12 @@ text-color: white
 link-color: "#F6843E"
 ---
 
-<article class="type-system-traditional">
-  <p class="type">Article Type</p>
+{% assign author = site.data.authors[page.author] %}
+
+<article>
   <h1>{{ page.title }}</h1>
+	<span class="author">{{ author.display_name }}</span>
+  {% if author.twitter %}<span class="author-twitter"><a href="https://twitter.com/{{ author.twitter }}"><i class="fa fa-twitter"></i></a></span>{% endif %}
   <p class="date">{{ page.date | date: "%-d %B %Y" }}</p>
   {{ content }}
-  <p class="author">Author Name</p>
 </article>

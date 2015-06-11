@@ -7,9 +7,13 @@ title: Blog
 <ul class="posts">
   
 	{% for post in site.posts %}
+  {% assign author = site.data.authors[post.author] %}
+
 	<li class="post">
 		<p>
 			<h2><a href="{{ post.permalink }}">{{ post.title }}</a></h2> 
+      <span class="author">{{ author.display_name }}</span>
+      {% if author.twitter %}<span class="author-twitter"><a href="https://twitter.com/{{ author.twitter }}"><i class="fa fa-twitter"></i></a></span>{% endif %}
 			<p class="post-date"> {{ post.date | date: "%-d %B %Y" }} </p>
 			<p> {{ post.content }} </p>
 		</p>
