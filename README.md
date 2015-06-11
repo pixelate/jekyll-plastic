@@ -209,7 +209,7 @@ doctoc README.md --title "# Table of Contents"
 
 # TODO
 
+* Background stretch images
 * Add instructions how to host on Heroku
-* Setup RSS
 * Create default CSS theme
 * Option to host assets on CDN
