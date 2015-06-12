@@ -8,7 +8,8 @@ layout: compress
 <head>
 	<meta charset="utf-8">
 	<title>{{ page.title }} {% if page.title != nil %}– {% endif %}{{site.data.studio.name}}</title>
-	<link rel="stylesheet" type="text/css" href="/css/combined.css">
+
+  {% stylesheet application %}
   <link rel="shortcut icon" href="/favicon.ico" />
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="alternate" type="application/rss+xml" href="/blog/feed.xml">

@@ -1,4 +1,6 @@
 ### 0.0.5 (2015-06-12)
+
+  * Move stylesheets into _assets folder
   * Support for Google Analytics
 
 ### 0.0.4 (2015-06-11)
