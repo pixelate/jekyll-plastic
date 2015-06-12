@@ -44,7 +44,7 @@ The project is prepopulated with example content from our game studio Spaces of 
 
 This is what the example site looks like as of version 0.0.5.
 
-![Plastic example site](/plastic-example-site.jpg?raw=true)
+![Plastic example site](/plastic-example-site.png?raw=true)
 
 # Local setup
 
