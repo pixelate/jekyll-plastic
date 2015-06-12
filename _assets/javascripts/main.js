@@ -7,7 +7,6 @@
 function init() {
   setupVideos();
   setupGallery();
-  setupBackgroundImage();
 }
 
 function setupVideos() {
@@ -23,8 +22,4 @@ function setupGallery() {
   $('.backdrop, .gallery-image-zoomed-in').click(function(event) {
     $('.backdrop, .gallery-image-zoomed-in').hide();
   });
-}
-
-function setupBackgroundImage() {
-  
 }
