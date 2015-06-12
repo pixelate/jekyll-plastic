@@ -27,7 +27,9 @@ The project is prepopulated with example content from our game studio Spaces of 
 - [Pages](#pages)
   - [Color schemes](#color-schemes)
   - [Background images](#background-images)
-- [Cookie consent](#cookie-consent)
+- [Configuration](#configuration)
+  - [Google Analytics](#google-analytics)
+  - [Cookie consent](#cookie-consent)
 - [Deploy](#deploy)
 - [Import from Wordpress](#import-from-wordpress)
 - [Thank you](#thank-you)
@@ -191,7 +193,13 @@ You can specify a background image per page that will automatically stretch to f
 background_image: "future-unfolding/gallery/futureunfolding_1.jpg"
 ```
 
-# Cookie consent
+# Configuration
+
+## Google Analytics
+
+If you want to use Google Analytics add your Tracking ID to the `_data/config.yml` file. If you don't want to use it, please remove the line `google_analytics: UA-XXXXXXXX-X` from the config file.
+
+## Cookie consent
 
 Plastic comes with a default cookie consent dialog that informs users about your use of cookies on the site. Cookies are for example used by third-party services like Google Analytics. You can configure the cookie consent dialog in the `_data/config.yml` file. Privacy laws differ from country to country, so please make sure you're following the rules applicable to where your company is based. [More information about cookie consent](https://www.cookiechoices.org/#about).
 
@@ -225,7 +233,6 @@ doctoc README.md --title "# Table of Contents"
 
 # Roadmap 
 
-* Default CSS theme
 * Deploy to Heroku Button
 * GitHub pages support
 

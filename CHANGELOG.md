@@ -1,3 +1,6 @@
+### 0.0.5 (2015-06-12)
+  * Support for Google Analytics
+
 ### 0.0.4 (2015-06-11)
 
   * Added author option to blog posts

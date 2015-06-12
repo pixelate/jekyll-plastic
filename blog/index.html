@@ -3,9 +3,7 @@ layout: base
 title: Blog
 ---
 
-<div class="row">
-<ul class="posts">
-  
+<ul class="posts">  
 	{% for post in site.posts %}
   {% assign author = site.data.authors[post.author] %}
 
@@ -20,7 +18,3 @@ title: Blog
 	</li>
 	{% endfor %}
 </ul>
-
-{% include sidebar.html %}
-
-</div>

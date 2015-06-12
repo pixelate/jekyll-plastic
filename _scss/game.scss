@@ -12,25 +12,10 @@
   }
   
   .description {
-    margin-bottom: 16px; 
-
-    .left, .right {
-      @include span-columns(12);         
-      
-      @include media(640px) {
-        @include span-columns(6);         
-      }
-    }
-
-    p {
-      font-size: 20px;
-    }
-    
-    &:after {
-      content:'';
-      display: block;
-      clear: both;
-    }
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 24px 0 32px 0;
   }
     
   .links {
@@ -111,5 +96,14 @@
   i {
     font-size: 3em;
     padding: 0 6px;
+  }
+}
+
+#awards {
+  text-align: center;
+  
+  .location {
+    font-style: italic;
+    opacity: 0.75;
   }
 }
