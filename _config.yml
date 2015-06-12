@@ -2,7 +2,7 @@
 encoding: UTF-8
 markdown: redcarpet
 highlighter: null
-exclude: ['app.json', 'config.ru', 'Gemfile', 'Gemfile.lock', 'Procfile', 'LICENSE', 'README.md', 'CHANGELOG.md']
+exclude: ['app.json', 'config.ru', 'Gemfile', 'Gemfile.lock', 'Procfile', 'LICENSE', 'README.md', 'CHANGELOG.md', 'plastic-example-site.jpg']
 name: Jekyll Plastic
 url: http://www.spacesofplay.com
 asset_url: "/assets"

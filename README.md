@@ -9,6 +9,7 @@ The project is prepopulated with example content from our game studio Spaces of 
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 # Table of Contents
 
+- [Example site](#example-site)
 - [Local setup](#local-setup)
   - [Install Ruby on Windows](#install-ruby-on-windows)
   - [Install Ruby on OS X](#install-ruby-on-os-x)
@@ -38,6 +39,12 @@ The project is prepopulated with example content from our game studio Spaces of 
 - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+# Example site
+
+This is what the example site looks like as of version 0.0.5.
+
+![Plastic example site](/plastic-example-site.jpg?raw=true)
 
 # Local setup
 
