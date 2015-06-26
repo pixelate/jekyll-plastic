@@ -1,3 +1,7 @@
+### 0.0.6 (2015-06-26)
+
+  * Added missing gems for Wordpress import
+
 ### 0.0.5 (2015-06-12)
 
   * Move stylesheets into _assets folder
